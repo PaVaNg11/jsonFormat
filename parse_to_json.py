@@ -16,7 +16,7 @@ def add_to_database(list_of_json):
     cursor.execute("""
             CREATE TABLE IF NOT EXISTS table2(
             data TEXT 
-                                            )
+                                             )
 """)
 
     # cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")                       #To view how many tables are present in the db
